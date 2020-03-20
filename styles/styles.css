@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+    /* background-repeat: no-repeat; */
+    margin: 0;
+    min-height: 100vh;
+    /* background-color: rgba(3, 136, 47, 0.801); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+
+}
+
+
+.title{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.container{
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    border-style: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.password-display{
+    background-color: white ;
+    color: rgb(3, 80, 57);
+    padding: 1rem;
+    border: 1px solid  rgb(3, 80, 57);
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+label{
+    font-weight: bold;
+
+}
+
+.character-Amount-Container{
+    display: flex;
+    align-items: center;
+}
+
+.numberInput{
+    width: 2rem;
+}
+
+.btn{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    background-color: #FFFFFF33;
+}
+
